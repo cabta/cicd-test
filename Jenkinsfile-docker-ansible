@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
       agent any
       steps {
-        git branch: 'main', url: 'https://github.com/cabta/test.git'
+        git branch: 'main', url: 'https://github.com/cabta/cicd-test.git'
       }
     }
     stage('Build') {
